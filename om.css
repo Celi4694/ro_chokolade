@@ -8,3 +8,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
 }
+
+button{
+    background-color: black;
+     border: none;
+     color: white;
+     text-align: center;
+     padding: 2vw;
+   }

@@ -3,3 +3,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
 }
+#second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+}

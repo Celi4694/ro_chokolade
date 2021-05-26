@@ -70,16 +70,12 @@ header a:hover {
 /* Footer start */
 
 footer {
-  display: grid;
-  grid-template-columns: repeat();
-
-  width: 100%;
   background-color: burlywood;
   gap: 1rem;
-}
-
-footer a:hover {
-  color: #000;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 /* Footer end */
@@ -160,6 +156,44 @@ section {
 /* Mobil end */
 
 /* Desktop start */
+
+@media (min-width: 780px) {
+  /* Footer start */
+
+  footer {
+    background-color: burlywood;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer a:hover {
+    color: #000;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  footer .col_left {
+    grid-column: 2/3;
+  }
+
+  footer .col_middle {
+    grid-column: 3/4;
+  }
+
+  footer .col_right {
+    grid-column: 4/5;
+  }
+
+  footer p {
+    grid-column: 1/6;
+  }
+
+  /* Footer end */
+}
 
 @media (min-width: 950px) {
   #section_two .section_wrapper {

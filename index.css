@@ -237,7 +237,7 @@ section {
 }
 @media (max-width: 767px) {
   #section_one {
-    background: url("img/wide_img.jpeg");
+    background: url("http://designbymagnus.dk/kea/05_indhold/redsign/indhold/wide_img.jpeg");
     background-size: cover;
   }
 

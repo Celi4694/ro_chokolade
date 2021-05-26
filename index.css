@@ -123,7 +123,7 @@ section {
   grid-row: 1/1;
 }
 
-#section_one button {
+#section_one a {
   grid-column: 5/6;
   grid-row: 4/5;
 }

@@ -1,1 +1,33 @@
+#first_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 5fr 2fr 5fr;
+  gap: 2vw;
+  margin: 5vw;
+}
 
+#first_section .col_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1vw;
+}
+.koeb_knap {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.kurv_knap {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

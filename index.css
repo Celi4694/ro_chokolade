@@ -1,5 +1,11 @@
 /* Generelt start */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  margin: 0rem;
+}
+
 body {
   margin: 0rem;
   background-color: #ffffff;
@@ -21,6 +27,62 @@ figure {
 }
 
 /* Generelt end */
+
+/* Menu start */
+
+header {
+  /* display: flex; */
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background-color: burlywood;
+  gap: 1rem;
+}
+
+header ul {
+  display: flex;
+  overflow-x: auto;
+  list-style: none;
+  gap: 1rem;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem;
+}
+
+header a {
+  display: inline-block;
+  width: 100%;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #000;
+}
+
+/* Menu end */
+
+/* Footer start */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat();
+
+  width: 100%;
+  background-color: burlywood;
+  gap: 1rem;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+/* Footer end */
 
 /* Layout start */
 

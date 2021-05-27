@@ -17,6 +17,18 @@ button{
        text-align: center;
    }
 
+   .navn {
+       border: solid 2px;
+   }
+   .email {
+        border: solid 2px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+   }
+   .medelelse {
+        border: solid 2px;
+   }
+
    @media (max-width: 600px) {
     #first_section .section_wrapper {
         text-align: center;
@@ -47,5 +59,8 @@ button{
     #second_section .section_wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    #second_section .col_left {
+        margin: 3vw;
     }
    }

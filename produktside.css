@@ -12,7 +12,7 @@
   padding: 1vw;
 }
 .koeb_knap {
-  background-color: black;
+  background-color: #d6c6ac;
   border: none;
   color: white;
   padding: 1vw 2vw;
@@ -22,7 +22,7 @@
   font-size: 16px;
 }
 .kurv_knap {
-  background-color: black;
+  background-color: #d6c6ac;
   border: none;
   color: white;
   padding: 1vw 2vw;
@@ -30,6 +30,14 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.kurv_knap:hover {
+  color: #6b5137;
+}
+
+.koeb_knap:hover {
+  color: #6b5137;
 }
 #knapper {
   display: flex;
@@ -52,8 +60,9 @@
 }
 .dropdown_button {
   padding: 1vw;
-  background-color: black;
+  background-color: #d6c6ac;
   color: white;
+  font-family: monospace;
 }
 
 .dropdown_content {
@@ -63,6 +72,7 @@
   min-width: 10vw;
   box-shadow: 0vw 2vw 3vw 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  font-family: monospace;
 }
 .dropdown_content a {
   color: black;

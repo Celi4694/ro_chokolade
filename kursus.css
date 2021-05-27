@@ -1,6 +1,7 @@
-#second_section, #third_section{
-    margin-left: 3vw;
-    margin-right: 3vw;
+#second_section,
+#third_section {
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 #first_section {
@@ -11,14 +12,14 @@
   background-repeat: no-repeat;
 }
 
-h2{
-    text-align: center;
-    padding-top: 7vw;
-    color: white;
+h2 {
+  text-align: center;
+  padding-top: 7vw;
+  color: white;
 }
 
-button{
- background-color: black;
+button {
+  background-color: black;
   border: none;
   color: white;
   padding: 1vw 2vw;
@@ -28,12 +29,12 @@ button{
   font-size: 16px;
 }
 
-#third_section_right{
-    margin-top: 7vw;
+#third_section_right {
+  margin-top: 7vw;
 }
 
-#second_section_left{
-    margin-top: 4vw;
+#second_section_left {
+  margin-top: 4vw;
 }
 
 #second_section img {
@@ -48,12 +49,30 @@ button{
   margin-left: 12vw;
 }
 
+@media (max-width: 500px) {
+  figure {
+    width: 100%;
+    height: auto;
+    margin: 5vw;
+    padding: 4vw;
+  }
 
-#second_section, #third_section{
+  #second_section,
+  #third_section {
+    text-align: center;
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+}
+
+@media (min-width: 500px) {
+  #second_section,
+  #third_section {
     display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1vw;
-  text-align: center;
-  margin-top: 8vw;
-  margin-bottom: 5vw;
-{
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
+  }
+}

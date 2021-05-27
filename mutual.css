@@ -58,6 +58,11 @@ p {
     font-family: "Roboto Mono", monospace;
     font-size: 2vw;
   }
+
+  h2 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 4vw;
+  }
 }
 
 footer {

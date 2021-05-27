@@ -23,26 +23,28 @@ a:hover {
 }
 
 h1 {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 h2 {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 h3 {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 2vw;
 }
 
 h4 {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 1.5vw;
   font-weight: lighter;
 }
 
 p {
-  font-family: monospace;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2vw;
 }
 
 footer {

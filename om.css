@@ -3,7 +3,11 @@ main {
     grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 
-#first_section .section_wrapper {
+header {
+    text-align: center;
+}
+
+/* #first_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
@@ -12,7 +16,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
-}
+} */
 
 button{
     background-color: black;
@@ -24,4 +28,12 @@ button{
 
    h2 {
        text-align: center;
+   }
+
+   @media (max-width: 600px) {
+
+   }
+
+   @media (min-width: 600px) {
+       
    }

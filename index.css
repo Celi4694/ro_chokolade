@@ -31,10 +31,12 @@ figure {
 /* Menu start */
 
 header {
+  position: sticky;
+  z-index: 100;
   top: 0;
-  width: 100%;
+  /* width: 50vw;
   background-color: burlywood;
-  gap: 1rem;
+  gap: 1rem; */
 }
 
 header ul {
@@ -73,6 +75,10 @@ header a:hover {
   list-style-type: none;
   transition: transform 0.3s;
   transform-origin: top left;
+
+  width: 50vw;
+  background-color: burlywood;
+  gap: 1rem;
 }
 
 @media only screen and (min-width: 600px) {

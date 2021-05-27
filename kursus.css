@@ -36,17 +36,6 @@ button {
   margin-bottom: 4vw;
 }
 
-#second_section img {
-  width: 50%;
-  height: auto;
-  margin-left: 5vw;
-}
-#third_section img {
-  width: 50%;
-  height: auto;
-  margin-left: 5vw;
-}
-
 @media (max-width: 500px) {
   figure {
     width: 100%;
@@ -86,12 +75,23 @@ button {
   }
 
   #third_section_right {
-    margin-top: 2vw;
     margin-right: 5vw;
   }
 
   #second_section_right {
-    margin-top: 0vw;
     margin-right: 5vw;
+  }
+
+  #second_section img {
+    width: 70%;
+    height: auto;
+    margin-left: 6vw;
+    margin-top: 2.5vw;
+  }
+  #third_section img {
+    width: 70%;
+    height: auto;
+    margin-left: 6vw;
+    margin-top: 2.5vw;
   }
 }

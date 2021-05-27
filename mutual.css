@@ -13,6 +13,9 @@ img {
 header {
 }
 
+header a:hover {
+}
+
 a {
 }
 
@@ -20,18 +23,26 @@ a:hover {
 }
 
 h1 {
+  font-family: monospace;
 }
 
 h2 {
+  font-family: monospace;
 }
 
 h3 {
+  font-family: monospace;
+  font-size: 2vw;
 }
 
 h4 {
+  font-family: monospace;
+  font-size: 1.5vw;
+  font-weight: lighter;
 }
 
 p {
+  font-family: monospace;
 }
 
 footer {

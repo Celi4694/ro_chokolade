@@ -2,17 +2,17 @@
   display: grid;
   grid-template-columns: 3fr 3fr 1fr;
   gap: 4vw;
-  margin: 10vw;
+  margin: 7vw;
 }
 
 #first_section .col_right {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 3vw;
   padding: 1vw;
 }
 .koeb_knap {
-  background-color: black;
+  background-color: #d6c6ac;
   border: none;
   color: white;
   padding: 1vw 2vw;
@@ -22,7 +22,7 @@
   font-size: 16px;
 }
 .kurv_knap {
-  background-color: black;
+  background-color: #d6c6ac;
   border: none;
   color: white;
   padding: 1vw 2vw;
@@ -30,6 +30,14 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.kurv_knap:hover {
+  color: #6b5137;
+}
+
+.koeb_knap:hover {
+  color: #6b5137;
 }
 #knapper {
   display: flex;
@@ -52,8 +60,9 @@
 }
 .dropdown_button {
   padding: 1vw;
-  background-color: black;
+  background-color: #d6c6ac;
   color: white;
+  font-family: "Roboto Mono", monospace;
 }
 
 .dropdown_content {
@@ -63,6 +72,7 @@
   min-width: 10vw;
   box-shadow: 0vw 2vw 3vw 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  font-family: monospace;
 }
 .dropdown_content a {
   color: black;
@@ -72,6 +82,7 @@
 }
 .dropdown:hover .dropdown_content {
   display: block;
+  font-family: "Roboto Mono", monospace;
 }
 
 .dropdown_content:hover {
@@ -83,11 +94,79 @@
 }
 .relaterede_produkter {
   text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
 
 .produkt1234 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 5vw;
+  padding: 4vw;
   gap: 2vw;
+}
+header {
+  display: flex;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background-color: #d6c6ac;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1vw;
+}
+
+header ul {
+  display: flex;
+  overflow-x: auto;
+  list-style: none;
+  gap: 1rem;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+header a {
+  display: inline-block;
+  width: 100%;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #6b5137;
+}
+
+footer {
+  background-color: #d6c6ac;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2vw;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+footer .col_left {
+  grid-column: 2/3;
+}
+
+footer .col_middle {
+  grid-column: 3/4;
+}
+
+footer .col_right {
+  grid-column: 4/5;
+}
+
+footer p {
+  grid-column: 1/6;
 }

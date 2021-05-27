@@ -18,15 +18,15 @@ button{
    }
 
    .navn {
-       border: solid 2px;
+       border: solid 1px;
    }
    .email {
-        border: solid 2px;
+        border: solid 1px;
         margin-top: 2vw;
         margin-bottom: 2vw;
    }
    .medelelse {
-        border: solid 2px;
+        border: solid 1px;
    }
 
    @media (max-width: 600px) {

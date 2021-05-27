@@ -292,6 +292,18 @@ section {
 
 /* Mobil end */
 
+/* aside start */
+
+aside label,
+aside input,
+aside textarea,
+aside select,
+aside button {
+  display: block;
+}
+
+/* aside start */
+
 /* Desktop start */
 
 @media (min-width: 600px) {

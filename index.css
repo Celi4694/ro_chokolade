@@ -31,7 +31,68 @@ figure {
 /* Menu start */
 
 header {
-  /* display: flex; */
+  top: 0;
+  width: 100%;
+  background-color: burlywood;
+  gap: 1rem;
+}
+
+header ul {
+  gap: 1rem;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem;
+}
+
+header a {
+  display: inline-block;
+  width: 100%;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #000;
+}
+
+/* Brugermenu start */
+.hidden {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+}
+/* Brugermenu end */
+
+/* header {
+  display: flex;
   position: sticky;
   z-index: 100;
   top: 0;
@@ -63,7 +124,7 @@ header a {
 
 header a:hover {
   color: #000;
-}
+} */
 
 /* Menu end */
 
@@ -156,6 +217,9 @@ section {
 /* Mobil end */
 
 /* Desktop start */
+
+@media (min-width: 600px) {
+}
 
 @media (min-width: 780px) {
   /* Footer start */

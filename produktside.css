@@ -2,13 +2,13 @@
   display: grid;
   grid-template-columns: 3fr 3fr 1fr;
   gap: 4vw;
-  margin: 10vw;
+  margin: 7vw;
 }
 
 #first_section .col_right {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 3vw;
   padding: 1vw;
 }
 .koeb_knap {
@@ -62,7 +62,7 @@
   padding: 1vw;
   background-color: #d6c6ac;
   color: white;
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .dropdown_content {
@@ -82,6 +82,7 @@
 }
 .dropdown:hover .dropdown_content {
   display: block;
+  font-family: "Roboto Mono", monospace;
 }
 
 .dropdown_content:hover {
@@ -93,12 +94,13 @@
 }
 .relaterede_produkter {
   text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
 
 .produkt1234 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 5vw;
+  padding: 4vw;
   gap: 2vw;
 }
 header {
@@ -120,7 +122,7 @@ header ul {
   gap: 1rem;
   padding: 0rem 0rem 0rem 0rem;
   margin: 0rem;
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 header a {

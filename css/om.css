@@ -12,9 +12,10 @@ button{
    h2 {
        text-align: center;
    }
-   #second_section .col_right {
+
+   .input-group {
     display: block;
-}
+     }
 
    @media (max-width: 600px) {
     #first_section .section_wrapper {

@@ -96,6 +96,7 @@ button:hover {
   color: var(--color3);
 }
 
+
 @media (min-width: 500px) {
   p {
     font-family: "Open Sans", sans-serif;
@@ -170,68 +171,66 @@ nav #menu {
 
 /* Footer start */
 
-footer {
-  background: var(--color2);
 
-  text-align: center;
-  color: var(--color3);
-  padding: 0.5rem 0rem 0.5rem 0rem;
-}
 
-footer img {
-  width: 14vw;
-  padding: 0.5rem;
-}
 
-footer .col_left div {
-  display: flex;
-  justify-content: center;
-}
+  footer {
+    background: var(--color2);
 
-footer .col_left {
-  margin-right: 8vw;
-  margin-top: 4vw;
-}
+    text-align: center;
+    color: var(--color7);
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
 
-footer .col_right {
-  display: flex;
-  justify-content: center;
-  margin-left: 8vw;
-  margin-top: 4vw;
-}
+  footer img {
+    width: 6vw;
+    padding: 0.5rem;
+  }
 
-footer {
-  gap: 1rem;
-  align-items: center;
-  text-align: center;
-}
+  footer .col_left div {
+    display: flex;
+    justify-content: center;
+  }
 
-/*footer a:hover {
+  footer .col_right {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  /*footer a:hover {
     color: #000;
   }*/
 
-footer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  footer .col_left {
+    grid-column: 2/3;
+  }
+
+  footer .col_middle {
+    grid-column: 3/4;
+  }
+
+  footer .col_right {
+    grid-column: 4/5;
+  }
+
+  footer p {
+    grid-column: 1/6;
+  }
+
+  /* Footer end */
 }
 
-footer .col_left {
-  grid-column: 2/3;
-}
-
-footer .col_middle {
-  grid-column: 3/4;
-}
-
-footer .col_right {
-  grid-column: 4/5;
-}
-
-footer p {
-  grid-column: 1/6;
-}
-
-/* Footer end */
 
 @media (min-width: 700px) {
   nav {
@@ -253,4 +252,5 @@ footer p {
   .hidden {
     display: flex;
   }
-}
+
+  

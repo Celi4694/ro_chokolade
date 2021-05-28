@@ -224,13 +224,16 @@ nav #menu {
 }
 
 footer {
-  background-color: #6b5137;
+  background: var(--color3);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   text-align: center;
   padding-left: 7vw;
   padding-right: 7vw;
+}
+footer p {
+  color: white;
 }
 
 #right,

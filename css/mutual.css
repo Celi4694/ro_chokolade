@@ -259,4 +259,8 @@ footer {
   #left img {
     width: 4vw;
   }
+
+  #visa {
+    padding-top: 0.5vw;
+  }
 }

@@ -42,28 +42,26 @@ button {
 
 @media (max-width: 500px) {
   figure {
-    width: 100%;
     height: auto;
-    margin: 5vw;
-    padding: 4vw;
   }
 
   #second_section,
   #third_section {
     text-align: center;
-    margin-left: 6vw;
-    margin-right: 6vw;
   }
 
   #second_section img {
     width: 70%;
     height: auto;
-    margin-left: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
   }
   #third_section img {
     width: 70%;
     height: auto;
-    margin-left: 6vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

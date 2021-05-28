@@ -8,14 +8,17 @@
 
     <link rel="stylesheet" href="css/mutual.css" />
     <link rel="stylesheet" href="css/index.css" />
-    
+
     <title>Ro chokolade</title>
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="index.html">
-          <img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/ro_logo.png" alt="Logo" />
+          <img
+            src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/ro_logo.png"
+            alt="Logo"
+          />
         </a>
       </div>
       <nav>
@@ -47,7 +50,9 @@
               ⮞
             </button>
           </a>
-          <button><p>Se hvordan de laver deres chokolade<br>⮟</p></button>
+          <button>
+            <p>Se hvordan de laver deres chokolade<br />⮟</p>
+          </button>
         </article>
       </section>
 
@@ -190,71 +195,99 @@
 
     <aside>
       <form>
-
         <fieldset>
           <legend>Vælg et emne</legend>
 
-          <input type="radio" id="chokolader" name="emne" value="chokolader">
-          <label for="chokolader">Chokolader</label><br/>
+          <input type="radio" id="chokolader" name="emne" value="chokolader" />
+          <label for="chokolader">Chokolader</label><br />
 
-          <input type="radio" id="kursus" name="emne" value="kursus">
-          <label for="kursus">Kursus</label><br/>
+          <input type="radio" id="kursus" name="emne" value="kursus" />
+          <label for="kursus">Kursus</label><br />
 
-          <input type="radio" id="andet" name="emne" value="andet">
-          <label for="andet">Andet</label><br/>
+          <input type="radio" id="andet" name="emne" value="andet" />
+          <label for="andet">Andet</label><br />
         </fieldset>
 
         <div>
           <label for="full-name">Fulde navn</label>
-          <input type="text" id="full-name" name="fname" placeholder="fx Jens Peter" required>
+          <input
+            type="text"
+            id="full-name"
+            name="fname"
+            placeholder="fx Jens Peter"
+            required
+          />
         </div>
         <div>
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" placeholder="fx jens@gmail.com" required>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="fx jens@gmail.com"
+            required
+          />
         </div>
 
         <div class="form-felt">
           Skriv din besked her...
           <label required>
-            <textarea placeholder="Skriv din besked her..." name="besked" id="" cols="30" rows="10"></textarea>
+            <textarea
+              placeholder="Skriv din besked her..."
+              name="besked"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
           </label>
         </div>
         <button>Indsend</button>
       </form>
-
-
     </aside>
 
     <footer>
-      <div class="col_left">
-        <p>Vi accepter:</p>
-        <div>
-          <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/dankort_logo.webp" alt="Dankort logo💳" /></figure>
-          <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/visa_logo.png" alt="Visa logo💳" /></figure>
-        </div>
-      </div>
+      <section id="left">
+        <figure>
+          <img
+            src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/dankort_logo.webp"
+            alt="Dankort logo💳"
+          />
+        </figure>
 
-      <div class="col_middle">
+        <figure id="visa">
+          <img
+            src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/visa_logo.png"
+            alt="Visa logo💳"
+          />
+        </figure>
+      </section>
+
+      <section id="middle">
         <p>
           Butikkens åbningstider:<br />
           Man-fre: 10.00-18.00<br />
           Lørdag: 10.00-17.00<br />
           Søndag: 12.00-17.00
+          <br />
+          <br />
+          Ro Chokolade © 2021
         </p>
-        <p>Mail: info@ro-chokolade.dk</p>
-        <p>Tlf: 27855200</p>
-      </div>
+      </section>
 
-      <div class="col_right">
-        <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/insta_logo.png" alt="Instagram" /></figure>
-        <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/fb_logo.png" alt="Facebook" /></figure>
-      </div>
-
-      <div class="arrow_top">
-        <figure><img src="" alt="" /><a href="index.html#">⮝</a></figure>
-      </div>
-
-      <p>Ro Chokolade © 2021 · Leveret af Gruppe 5</p>
+      <section id="right">
+        <figure>
+          <img
+            src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/insta_logo.png"
+            alt="Instagram"
+          />
+        </figure>
+        <figure>
+          <img
+            src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/fb_logo.png"
+            alt="Facebook"
+          />
+        </figure>
+      </section>
     </footer>
 
     <script src="js/hambrugermenu.js"></script>

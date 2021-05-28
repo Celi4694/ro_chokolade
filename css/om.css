@@ -11,9 +11,12 @@ button{
        text-align: center;
    }
 
-   .input-group {
+   .sr-only {
     display: block;
-     }
+}
+   /* .input_group {
+    display: block;
+     } */
 
    @media (max-width: 600px) {
     #first_section .section_wrapper {

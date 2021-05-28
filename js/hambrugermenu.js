@@ -9,9 +9,6 @@ function toggleMenu() {
   console.log("toggleMenu");
   document.querySelector("#menu").classList.toggle("hidden");
 
-  document.querySelector("#menuknap").classList.toggle("hidden_knap");
-  document.querySelector(".logo").classList.toggle("hidden_logo");
-
   let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
 

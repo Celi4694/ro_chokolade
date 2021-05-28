@@ -166,28 +166,6 @@ nav #menu {
   display: none;
 }
 
-@media (min-width: 700px) {
-  nav {
-    display: flex;
-  }
-
-  nav #menu {
-    flex-basis: 0;
-  }
-
-  header ul {
-    display: flex;
-  }
-
-  #menuknap {
-    display: none;
-  }
-
-  .hidden {
-    display: flex;
-  }
-}
-
 /* Menu end */
 
 /* Footer start */
@@ -215,6 +193,30 @@ footer .col_left div {
 footer .col_right {
   display: flex;
   justify-content: center;
+}
+
+/* Footer end */
+
+@media (min-width: 700px) {
+  nav {
+    display: flex;
+  }
+
+  nav #menu {
+    flex-basis: 0;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  #menuknap {
+    display: none;
+  }
+
+  .hidden {
+    display: flex;
+  }
 }
 
 @media (min-width: 780px) {
@@ -253,4 +255,3 @@ footer .col_right {
     width: 8vw;
   }
 }
-/* Footer end */

@@ -1,6 +1,6 @@
 /* Generelt start */
 
-:root {
+html {
   --color1: #b18960;
   --color2: #6b5137;
   --color3: #000000;
@@ -8,6 +8,14 @@
   --color5: #d6c6ac;
   --color6: #737373;
   --color7: #ffffff;
+
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 6rem;
 }
 
 html {
@@ -21,11 +29,13 @@ body {
   background-color: #ffffff;
   overflow-wrap: break-word;
   hyphens: auto;
+
+  line-height: 1.5;
 }
 
 main {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
 }
 
 h1 {
@@ -91,7 +101,7 @@ button:hover {
 
 video {
   width: 100%;
-  margin: 0.5rem 0 0.5rem 0;
+  /*margin: 0.5rem 0 0.5rem 0;*/
 }
 
 figure {

@@ -104,10 +104,6 @@ button:hover {
   color: var(--color3);
 }*/
 
-button p {
-  color: var(--color7);
-}
-
 video {
   width: 100%;
   /*margin: 0.5rem 0 0.5rem 0;*/

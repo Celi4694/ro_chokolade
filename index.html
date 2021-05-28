@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="mutual.css" />
+
+    <link rel="stylesheet" href="css/mutual.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    
     <title>Ro chokolade</title>
   </head>
   <body>
     <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/ro_logo.png" alt="Logo" />
+        </a>
+      </div>
       <nav>
-        <div class="logo">
-          <a href="index.html">
-            <img src="" alt="Logo" />
-          </a>
-        </div>
-        <div id="menuknap">☰</div>
         <ul id="menu" class="hidden">
           <li><a href="shop.html">Shop</a></li>
           <li><a href="om.html">Om RO</a></li>
           <li><a href="om.html#kontakt">Kontakt</a></li>
           <li><a href="kursus.html">Flødebollekursus</a></li>
-          <li>
-            <a href="betal.html"><img src="" alt="" />Kurv</a>
-          </li>
+          <li><a href="produktside.html">Din kurv</a></li>
         </ul>
+        <button id="menuknap">Menu</button>
       </nav>
     </header>
 
@@ -44,17 +44,10 @@
           <a href="shop.html">
             <button>
               <p>Se vores lækker produkter</p>
-              →
-              <figure>
-                <img src="" alt="" />
-              </figure>
+              ⮞
             </button>
           </a>
-          <p>Se hvordan de laver deres chokolade</p>
-          <figure>
-            <p>↓</p>
-            <img src="" alt="" />
-          </figure>
+          <button><p>Se hvordan de laver deres chokolade<br>⮟</p></button>
         </article>
       </section>
 
@@ -79,7 +72,7 @@
             <a href="shop.html">
               <button>
                 <p>Gå til vores webshop</p>
-                →
+                ⮞
                 <figure>
                   <img src="" alt="" />
                 </figure>
@@ -195,11 +188,50 @@
       </section>
     </main>
 
+    <aside>
+      <form>
+
+        <fieldset>
+          <legend>Vælg et emne</legend>
+
+          <input type="radio" id="chokolader" name="emne" value="chokolader">
+          <label for="chokolader">Chokolader</label><br/>
+
+          <input type="radio" id="kursus" name="emne" value="kursus">
+          <label for="kursus">Kursus</label><br/>
+
+          <input type="radio" id="andet" name="emne" value="andet">
+          <label for="andet">Andet</label><br/>
+        </fieldset>
+
+        <div>
+          <label for="full-name">Fulde navn</label>
+          <input type="text" id="full-name" name="fname" placeholder="fx Jens Peter" required>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="fx jens@gmail.com" required>
+        </div>
+
+        <div class="form-felt">
+          Skriv din besked her...
+          <label required>
+            <textarea placeholder="Skriv din besked her..." name="besked" id="" cols="30" rows="10"></textarea>
+          </label>
+        </div>
+        <button>Indsend</button>
+      </form>
+
+
+    </aside>
+
     <footer>
       <div class="col_left">
         <p>Vi accepter:</p>
-        <figure><img src="" alt="Dankort" /></figure>
-        <figure><img src="" alt="Anden betaling metode" /></figure>
+        <div>
+          <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/dankort_logo.webp" alt="Dankort logo💳" /></figure>
+          <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/visa_logo.png" alt="Visa logo💳" /></figure>
+        </div>
       </div>
 
       <div class="col_middle">
@@ -214,17 +246,17 @@
       </div>
 
       <div class="col_right">
-        <figure><img src="" alt="Instagram" /></figure>
-        <figure><img src="" alt="Facebook" /></figure>
+        <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/insta_logo.png" alt="Instagram" /></figure>
+        <figure><img src="http://designbymagnus.dk/kea/05_indhold/redsign/indhold/logo_footer/fb_logo.png" alt="Facebook" /></figure>
       </div>
 
       <div class="arrow_top">
-        <figure><img src="" alt="Pil op af" /></figure>
+        <figure><img src="" alt="" /><a href="index.html#">⮝</a></figure>
       </div>
 
       <p>Ro Chokolade © 2021 · Leveret af Gruppe 5</p>
     </footer>
 
-    <script src="brugermenu.js"></script>
+    <script src="js/hambrugermenu.js"></script>
   </body>
 </html>

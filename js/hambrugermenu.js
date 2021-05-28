@@ -9,11 +9,16 @@ function toggleMenu() {
   console.log("toggleMenu");
   document.querySelector("#menu").classList.toggle("hidden");
 
+  document.querySelector("#menuknap").classList.toggle("hidden_knap");
+  document.querySelector(".logo").classList.toggle("hidden_logo");
+
   let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
+
+  
   if (erSkjult == true) {
-    document.querySelector("#menuknap").textContent = "☰";
+    document.querySelector("#menuknap").textContent = "Menu";
   } else {
-    document.querySelector("#menuknap").textContent = "X";
+    document.querySelector("#menuknap").textContent = "Close";
   }
 }

@@ -29,6 +29,21 @@ button{
     #first_section p {
         margin: 3vw;
     }
+       #second_section {
+           display: grid;
+       }
+       
+       #second_section .col_right {
+           grid-row: 1;   
+       }
+       #second_section .col_left {
+           grid-row: 2;
+       }
+    iframe {
+        width: 95vw; 
+        margin: 2vw;
+    }
+       
 }
    @media (min-width: 600px) {
     main {

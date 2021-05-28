@@ -1,9 +1,5 @@
-header {
-    text-align: center;
-}
-header li {
-    display: inline-block;
-    justify-content: space-between;
+element {
+    display: block;
 }
 button{
     background-color: black;
@@ -16,18 +12,9 @@ button{
    h2 {
        text-align: center;
    }
-
-   .navn {
-       border: solid 1px;
-   }
-   .email {
-        border: solid 1px;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-   }
-   .medelelse {
-        border: solid 1px;
-   }
+   #second_section .col_right {
+    display: block;
+}
 
    @media (max-width: 600px) {
     #first_section .section_wrapper {

@@ -18,6 +18,10 @@ button{
     display: block;
      } */
 
+     iframe {
+         background-size: cover;
+     }
+
    @media (max-width: 600px) {
     #first_section .section_wrapper {
         text-align: center;

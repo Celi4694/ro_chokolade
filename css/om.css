@@ -14,10 +14,6 @@ button{
    .sr-only {
     display: block;
 }
-   /* .input_group {
-    display: block;
-     } */
-
      iframe {
          background-size: cover;
      }
@@ -29,19 +25,21 @@ button{
     #first_section p {
         margin: 3vw;
     }
-       #second_section {
-           display: grid;
-       }
-       
-       #second_section .col_right {
-           grid-row: 1;   
-       }
-       #second_section .col_left {
-           grid-row: 2;
-       }
+     
     iframe {
         width: 95vw; 
         margin: 2vw;
+    }
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-rows: 2;
+        grid-template-columns: 1;
+    }
+    #second_section .col_right {
+        grid-row: 1;
+    }
+    #second_section .col_left {
+        grid-row: 2;
     }
        
 }

@@ -66,8 +66,10 @@ p {
 }
 
 footer {
-}
-
+  footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
   footer .col_left {
     grid-column: 2/3;
   }

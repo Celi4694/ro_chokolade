@@ -18,7 +18,7 @@ button{
          background-size: cover;
      }
 
-   @media (max-width: 600px) {
+   @media (max-width: 650px) {
     #first_section .section_wrapper {
         text-align: center;
     }
@@ -37,13 +37,14 @@ button{
     }
     #second_section .col_right {
         grid-row: 1;
+        
     }
     #second_section .col_left {
         grid-row: 2;
     }
        
 }
-   @media (min-width: 600px) {
+   @media (min-width: 650px) {
     main {
         display: grid;
         grid-template-columns: 1fr minmax(0, 1200px) 1fr;
@@ -74,20 +75,4 @@ button{
 
 
 
-   extarea {
-    display: block;
-    width: 100%;
-    min-width: 0;
-    height: 42px;
-    padding: 8px 12px;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #666;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #e6e6e6;
-    border-radius: 2px;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    -webkit-appearance: none;
-}
+

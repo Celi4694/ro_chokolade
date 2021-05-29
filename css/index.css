@@ -179,7 +179,6 @@ section {
 }
 
 #section_one button a {
-  text-shadow: 0.125rem 0.125rem 0.125rem var(--color3);
   color: var(--color3);
 }
 

@@ -179,12 +179,12 @@ section {
 }
 
 #section_one button a {
-  text-shadow: 0.125rem 0.125rem 0.125rem var(--color3);
   color: var(--color3);
 }
 
 #section_one button p {
   color: var(--color3);
+  font-family: "Roboto Mono", monospace;
 }
 
 #section_one button p:hover {

@@ -28,6 +28,17 @@ h3 {
 }
 
 button a {
+  background-color: lightgrey;
+  border: none;
+  color: white;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+/* button a {
   background-color: black;
   border: none;
   color: white;
@@ -36,7 +47,7 @@ button a {
   display: inline-block;
   font-size: 16px;
   padding: 0.7vw;
-}
+} */
 
 a:hover {
   background-color: white;

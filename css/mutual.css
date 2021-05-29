@@ -146,8 +146,12 @@ button p {
 
 header {
   position: sticky;
-  z-index: 100;
   top: 0;
+  z-index: 100;
+
+  /* En del af: Skjult menu ved scroll */
+  width: 100%;
+  transition: top 0.3s;
 
   display: flex;
   justify-content: space-between;
@@ -195,6 +199,7 @@ nav #menu {
 
   margin-top: 1.5rem;
   flex-basis: 100%;
+  /*transition: top 0.3s;*/
 }
 
 #menuknap {
@@ -223,6 +228,7 @@ nav #menu {
 
 .hidden {
   display: none;
+  transition: top 0.3s;
 }
 
 /* Menu end */

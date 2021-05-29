@@ -104,6 +104,8 @@ button:hover {
 
 button p {
   color: var(--color7);
+  margin: 0rem;
+  padding: 0.4rem;
 }
 
 /*Footer*/
@@ -242,9 +244,12 @@ footer {
   text-align: center;
   padding-left: 7vw;
   padding-right: 7vw;
+  padding-bottom: 1rem;
 }
+
 footer p {
   color: white;
+  margin: 0rem;
 }
 
 #right,

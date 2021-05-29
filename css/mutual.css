@@ -76,6 +76,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: var(--color7);
+  border: none;
 }
 
 a:hover {
@@ -85,8 +86,8 @@ a:hover {
 button {
   border: none;
   color: var(--color7);
-  background: var(--color3);
-  padding: 0.2rem 0.2rem;
+  /* background: var(--color3); */
+  /* padding: 0.2rem 0.2rem; */
   text-align: center;
   text-decoration: none;
   display: inline-block;

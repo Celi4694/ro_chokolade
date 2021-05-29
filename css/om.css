@@ -22,12 +22,10 @@ button{
    .sr-only {
     display: block;
 }
-.name {
+.add_on {
     display: block;
 }
-.mail {
-    display: block;
-}
+
      iframe {
          background-size: cover;
      }

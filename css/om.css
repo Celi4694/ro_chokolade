@@ -14,6 +14,17 @@ button{
      padding: 2vw;
    }
 
+   button a {
+    background-color: lightgrey;
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
    h2 {
        text-align: center;
        margin: 3vw;

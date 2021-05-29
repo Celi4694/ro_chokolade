@@ -14,6 +14,12 @@ button{
    .sr-only {
     display: block;
 }
+.name {
+    display: block;
+}
+.mail {
+    display: block;
+}
      iframe {
          background-size: cover;
      }
@@ -37,7 +43,7 @@ button{
     }
     #second_section .col_right {
         grid-row: 1;
-        
+        text-align: center;
     }
     #second_section .col_left {
         grid-row: 2;

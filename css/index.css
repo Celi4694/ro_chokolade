@@ -119,7 +119,7 @@ section {
 }
 
 #section_one video {
-  opacity: 50%;
+  opacity: 70%;
   position: fixed;
   z-index: -1000;
 
@@ -179,7 +179,6 @@ section {
 #section_one button {
   background: none;
   margin-bottom: 0.5rem;
-  border: 0.15rem solid #0000000d;
   padding: 0.2rem;
 }
 

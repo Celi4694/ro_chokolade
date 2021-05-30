@@ -12,17 +12,10 @@
   padding: 1vw;
 }
 
-.kurv_knap:hover {
-  color: #6b5137;
-}
-
-.koeb_knap:hover {
-  color: #6b5137;
-}
 #knapper {
   display: flex;
   flex-direction: row;
-  gap: 1vw;
+  gap: 2vw;
 }
 
 #pris {
@@ -109,7 +102,7 @@
   position: absolute;
   bottom: 0;
   background: rgb(196, 196, 196);
-  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  background: rgba(231, 231, 231, 0.5);
   color: black;
   width: 93%;
   transition: 0.5s ease;
@@ -139,7 +132,7 @@
   position: absolute;
   bottom: 0;
   background: rgb(196, 196, 196);
-  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  background: rgba(231, 231, 231, 0.5);
   color: black;
   width: 93%;
   transition: 0.5s ease;
@@ -169,7 +162,7 @@
   position: absolute;
   bottom: 0;
   background: rgb(196, 196, 196);
-  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  background: rgba(231, 231, 231, 0.5);
   color: black;
   width: 93%;
   transition: 0.5s ease;

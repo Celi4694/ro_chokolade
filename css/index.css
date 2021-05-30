@@ -180,6 +180,15 @@ section {
   background: none;
   margin-bottom: 0.5rem;
   padding: 0.2rem;
+
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
 #section_one button a {
@@ -266,10 +275,14 @@ section {
   }
 }
 
-/* Video bliver ikke vist på mobil, forbesparelse af data forbrug mm
-@media (max-width: 767px) {
+/* Video bliver ikke vist på mobil, forbesparelse af data forbrug mm*/
+/*@media (max-width: 767px) {
   #section_one {
-    background: url("http://designbymagnus.dk/kea/05_indhold/redsign/indhold/wide_img.jpeg");
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("http://designbymagnus.dk/kea/05_indhold/redsign/indhold/splashvideo_poster.PNG");
     background-size: cover;
   }
 
@@ -285,7 +298,7 @@ section {
   }
 }
 
-/* splashvideo end */
+/* splashvideo end 
 
 @media (min-width: 950px) {
   #section_two .section_wrapper {

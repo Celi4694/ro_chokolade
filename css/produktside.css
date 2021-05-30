@@ -215,3 +215,6 @@ button {
 .container4:hover .overlay4 {
   opacity: 1;
 }
+.produktbeskrivelse p {
+  font-size: 1.2vw;
+}

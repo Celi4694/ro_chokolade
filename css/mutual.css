@@ -125,18 +125,18 @@ button p {
 
 @media (min-width: 500px) {
   p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
+    /*font-family: "Open Sans", sans-serif;
+    font-weight: lighter;*/
     font-size: 1.5vw;
   }
 
   h3 {
-    font-family: "Roboto Mono", monospace;
+    /*font-family: "Roboto Mono", monospace;*/
     font-size: 2vw;
   }
 
   h2 {
-    font-family: "Roboto Mono", monospace;
+    /*font-family: "Roboto Mono", monospace;*/
     font-size: 4vw;
   }
 }

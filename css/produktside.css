@@ -38,6 +38,11 @@
   position: relative;
   display: inline-block;
 }
+
+.dropdown button {
+  margin: 0;
+}
+
 .dropdown_button {
   padding: 1vw;
   background-color: lightgrey;
@@ -208,6 +213,7 @@
 .container4:hover .overlay4 {
   opacity: 1;
 }
-.produktbeskrivelse p {
+
+/*.produktbeskrivelse p {
   font-size: 1.2vw;
-}
+}*/

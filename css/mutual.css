@@ -145,21 +145,32 @@ button p {
 
 header {
   position: sticky;
-  z-index: 100;
   top: 0;
+  z-index: 100;
+
+  /* En del af: Skjult menu ved scroll */
+  width: 100%;
+  transition: top 0.3s;
 
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   background: var(--color3);
   align-items: center;
   flex-wrap: wrap;
 }
 
-.logo {
+/*.logo {
   width: 80px;
   height: 80px;
   display: block;
+}*/
+
+.logo img {
+  width: 70px;
+  min-width: 40px;
+  max-width: 100%;
+  height: auto;
 }
 
 header nav {
@@ -187,13 +198,85 @@ nav #menu {
 
   margin-top: 0.5rem;
   flex-basis: 100%;
+  /*transition: top 0.3s;*/
+}
+
+#menuknap {
+  margin: 0rem;
+  padding: 0.3rem;
+  background: var(--color3);
+  color: var(--color7);
+  border: 0.1rem solid var(--color7);
+}
+
+#menuknap:hover {
+  background: var(--color7);
+  color: var(--color3);
+  border: 0.15rem solid var(--color3);
+}
+
+#menu li a:hover {
+  background: var(--color7);
+  color: var(--color3);
+  border-radius: 0.2rem;
+}
+
+#menu li {
+  white-space: nowrap;
 }
 
 .hidden {
   display: none;
+  transition: top 0.3s;
 }
 
 /* Menu end */
+
+/*Footer start */
+#right img {
+  width: 5vw;
+}
+
+#left img {
+  width: 7vw;
+}
+
+footer {
+  background: var(--color3);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  text-align: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  color: white;
+  margin: 0rem;
+}
+
+#right,
+#left {
+  display: flex;
+  gap: 2vw;
+}
+
+#right {
+  justify-content: right;
+}
+
+#visa {
+  padding-top: 1vw;
+}
+
+#middle {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+/*Footer end*/
 
 @media (min-width: 700px) {
   nav {
@@ -217,48 +300,19 @@ nav #menu {
   }
 }
 
-/*Footer*/
-#right img {
-  width: 5vw;
-}
+@media (min-width: 996px) {
+  .logo img {
+    width: 100px;
+  }
 
-#left img {
-  width: 7vw;
-}
+  header a {
+    margin: 0.2rem 1rem 0.2rem 1rem;
+  }
 
-footer {
-  background: var(--color3);
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
-  text-align: center;
-  padding-left: 7vw;
-  padding-right: 7vw;
+  nav #menu {
+    padding-right: 1rem;
+  }
 }
-footer p {
-  color: white;
-}
-
-#right,
-#left {
-  display: flex;
-  gap: 2vw;
-}
-
-#right {
-  justify-content: right;
-}
-
-#visa {
-  padding-top: 1vw;
-}
-
-#middle {
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-}
-
-/*Footer*/
 
 @media (min-width: 1000px) {
   footer {

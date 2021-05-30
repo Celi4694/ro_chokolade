@@ -17,12 +17,17 @@ main {
   grid-template-columns: 1fr minmax(0, 1000px) 1fr;
 }
 
+figure {
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+
 h1 {
   font-size: 3rem;
 }
 
 h2 {
   font-size: 2.8rem;
+  margin: 0rem 0rem 1.5rem 0rem;
 }
 
 h3 {
@@ -35,56 +40,26 @@ h4 {
 
 p {
   font-size: 1rem;
+  margin: 0rem 0rem 1.5rem 0rem;
 }
 
 a {
   font-size: 1.5rem;
 }
 
-video {
-  width: 100%;
-  /*margin: 0.5rem 0 0.5rem 0;*/
-}
-
-figure {
-  margin: 0.5rem 0rem 0rem 0rem;
-}
-
-.arrow_top a {
-  font-size: 5rem;
-}
 /* Generelt end */
 
-/* Footer start */
-/*
-footer {
-  background: var(--color2);
-  gap: 1rem;
-  align-items: center;
-  text-align: center;
-  color: var(--color3);
-  padding: 0.5rem 0rem 0.5rem 0rem;
-}
-
-footer img {
-  width: 18vw;
-  padding: 0.5rem;
-  align-content: center;
-}
-
-footer .col_left div {
-  display: flex;
-  justify-content: center;
-}
-
-footer .col_right {
-  display: flex;
-  justify-content: center;
-}
-*/
-/* Footer end */
-
 /* Layout start */
+
+main > section {
+  grid-column: 2/3;
+  /*margin-bottom: 0.5rem;*/
+}
+
+/*section {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}*/
 
 #section_one {
   grid-column: 1/4;
@@ -92,18 +67,50 @@ footer .col_right {
   padding: 0;
 }
 
+/* Layout som virker men ikke optimalt start */
+
+#section_two,
+#section_three,
+#section_four:not(#section_one) {
+  background: var(--color7);
+  /*border-radius: 0.5rem;*/
+}
+
+#section_two,
+#section_three,
+#section_four:not(#section_one) {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+}
+
 main > section {
+  grid-column: 1/4;
+}
+
+section > article:not(#section_one .section_wrapper) {
   grid-column: 2/3;
+  margin-bottom: 4rem;
 }
 
 section {
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: 0rem 1rem 0rem 1rem;
+  /*margin: 0rem 0.5rem 0rem 0.5rem;*/
 }
+
+#section_two {
+  padding-top: 4rem;
+}
+
+/* Layout som virker men ikke optimalt end */
 
 /* Layout end */
 
 /* Mobil start */
+
+/*#section_one {
+  background-size: cover;
+  background-position: 77% 10%;
+}*/
 
 #section_one .section_wrapper {
   display: grid;
@@ -113,7 +120,8 @@ section {
 
 #section_one video {
   opacity: 50%;
-  z-index: -1;
+  position: fixed;
+  z-index: -1000;
 
   grid-column: 1/7;
   grid-row: 1/6;
@@ -125,6 +133,7 @@ section {
   justify-content: center;
   grid-column: 1/7;
   grid-row: 1/1;
+  margin: 0rem;
 }
 
 #section_one .shopknap {
@@ -152,30 +161,26 @@ section {
   text-align: center;
 }
 
-@media (min-width: 500px) {
-  #section_one h2 {
-    grid-column: 1/7;
-    grid-row: 1/1;
-  }
+#section_one a {
+  display: flex;
+  flex-direction: column;
+}
 
-  #section_one .shopknap {
-    grid-column: 5/6;
-    grid-row: 4/5;
-  }
+#section_one img {
+  width: 1rem;
+  height: 1rem;
+  align-self: center;
+}
 
-  #section_one .videoknap {
-    grid-column: 3/5;
-    grid-row: 5/5;
-  }
-
-  #section_one p {
-    grid-column: 1/7;
-    grid-row: 5/6;
-  }
+#section_one img:hover {
+  color: var(--color7);
 }
 
 #section_one button {
   background: none;
+  margin-bottom: 0.5rem;
+  border: 0.15rem solid #0000000d;
+  padding: 0.2rem;
 }
 
 #section_one button a {
@@ -185,23 +190,16 @@ section {
 #section_one button p {
   color: var(--color3);
   font-family: "Roboto Mono", monospace;
+  margin: 0rem;
 }
 
 #section_one button p:hover {
   color: var(--color7);
 }
 
-a:hover {
-  color: var(--color4);
+#section_two video {
+  width: 100%;
 }
-
-/*#section_one figure {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-column: 1/7;
-  grid-row: 5/6;
-}*/
 
 #section_three .section_wrapper .col {
   display: flex;
@@ -222,6 +220,28 @@ a:hover {
   height: auto;
 }
 
+@media (min-width: 500px) {
+  #section_one h2 {
+    grid-column: 1/7;
+    grid-row: 1/1;
+  }
+
+  #section_one .shopknap {
+    grid-column: 4/6;
+    grid-row: 4/5;
+  }
+
+  #section_one .videoknap {
+    grid-column: 3/5;
+    grid-row: 5/5;
+  }
+
+  #section_one p {
+    grid-column: 1/7;
+    grid-row: 5/6;
+  }
+}
+
 @media (min-width: 700px) {
   #section_four .col {
     display: grid;
@@ -229,79 +249,11 @@ a:hover {
   }
 }
 
-/*
-#section_four .col {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-#section_four figure {
-  margin: 0.2rem 0.2rem 0.2rem 0.2rem;
-}*/
-
 /* Mobil end */
 
-/* aside start */
-
-aside label,
-aside input,
-aside textarea,
-aside select,
-aside button {
-  display: block;
-}
-
-/* aside end */
-
 /* Desktop start */
-/*@media (min-width: 780px) {
-  /* Footer start */
-/*
-  footer {
-    gap: 1rem;
-    align-items: center;
-    text-align: center;
-  }
-  */
-/*footer a:hover {
-    color: #000;
-  }*/
-/*
-  footer {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
 
-  footer .col_left {
-    grid-column: 2/3;
-  }
-
-  footer .col_middle {
-    grid-column: 3/4;
-  }
-
-  footer .col_right {
-    grid-column: 4/5;
-  }
-
-  footer p {
-    grid-column: 1/6;
-  }
-
-  footer img {
-    width: 8vw;
-  }
-  */
-/* Footer end */
-/*
-  #section_four .section_wrapper .col {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}*/
-
-/* Video media start */
+/* splashvideo start */
 @media (min-aspect-ratio: 16/9) {
   #section_one video {
     width: 100%;
@@ -310,33 +262,40 @@ aside button {
 }
 @media (max-aspect-ratio: 16/9) {
   #section_one video {
-    /* width: auto; */
-    /*height: 100%;*/
+    width: auto;
+    height: 100%;
   }
 }
+
+/* Video bliver ikke vist på mobil, forbesparelse af data forbrug mm
 @media (max-width: 767px) {
   #section_one {
-    /*background: url("http://designbymagnus.dk/kea/05_indhold/redsign/indhold/wide_img.jpeg");
-    background-size: cover;*/
+    background: url("http://designbymagnus.dk/kea/05_indhold/redsign/indhold/wide_img.jpeg");
+    background-size: cover;
   }
 
   #section_one video {
-    /*display: none;*/
+    display: none;
   }
-}
+}*/
 
 @media (min-width: 917px) {
   #section_one button p {
     font-size: 1.3rem;
+    white-space: nowrap;
   }
 }
 
-/* Video media end */
+/* splashvideo end */
 
 @media (min-width: 950px) {
   #section_two .section_wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  #section_two video {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 
   #section_three .section_wrapper {

@@ -42,7 +42,6 @@
   padding: 1vw;
   background-color: lightgrey;
   color: black;
-  font-family: "Roboto Mono", monospace;
 }
 
 .dropdown_content {
@@ -61,7 +60,6 @@
 }
 .dropdown:hover .dropdown_content {
   display: block;
-  font-family: "Roboto Mono", monospace;
 }
 
 .dropdown_content:hover {
@@ -73,7 +71,6 @@
 }
 .relaterede_produkter {
   text-align: center;
-  font-family: "Roboto Mono", monospace;
 }
 
 .produkt1234 {
@@ -87,11 +84,7 @@
   height: 28vw;
   width: 20vw;
 }
-button {
-  color: lightgrey;
-  padding: 2vw;
-  font-family: "Roboto Mono" monospace;
-}
+
 * {
   box-sizing: border-box;
 }

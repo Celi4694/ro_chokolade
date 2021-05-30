@@ -11,25 +11,6 @@
   gap: 3vw;
   padding: 1vw;
 }
-.koeb_knap {
-  background-color: lightgrey;
-  border: none;
-  color: white;
-  padding: 1vw 2vw;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.kurv_knap {
-  background-color: lightgrey;
-  border: none;
-  padding: 1vw 2vw;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 
 .kurv_knap:hover {
   color: #6b5137;
@@ -59,7 +40,8 @@
 }
 .dropdown_button {
   padding: 1vw;
-  color: white;
+  background-color: lightgrey;
+  color: black;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -70,7 +52,6 @@
   min-width: 10vw;
   box-shadow: 0vw 2vw 3vw 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  font-family: monospace;
 }
 .dropdown_content a {
   color: black;
@@ -105,4 +86,132 @@
 .produkt1234 img {
   height: 28vw;
   width: 20vw;
+}
+button {
+  color: lightgrey;
+  padding: 2vw;
+  font-family: "Roboto Mono" monospace;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container1 {
+  position: relative;
+  max-width: 300px;
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(196, 196, 196);
+  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  color: black;
+  width: 93%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.container2 {
+  position: relative;
+  max-width: 300px;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(196, 196, 196);
+  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  color: black;
+  width: 93%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.container3 {
+  position: relative;
+  max-width: 300px;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(196, 196, 196);
+  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  color: black;
+  width: 93%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.container4 {
+  position: relative;
+  max-width: 300px;
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(196, 196, 196);
+  background: rgba(231, 231, 231, 0.5); /* Black see-through */
+  color: black;
+  width: 93%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
 }

@@ -74,7 +74,7 @@ h4 {
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
-  font-size: 0.9vw;
+  font-size: 1.1vw;
   color: var(--color3);
   line-height: 1.5;
 }
@@ -157,7 +157,7 @@ button p {
   p {
     /*font-family: "Open Sans", sans-serif;
     font-weight: lighter;*/
-    font-size: 1.5vw;
+    font-size: 1.1vw;
   }
 
   h3 {

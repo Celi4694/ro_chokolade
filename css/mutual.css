@@ -88,11 +88,7 @@ a {
   border: none;
 }
 
-a:hover {
-  color: var(--color4);
-}
-
-#knap {
+button {
   border: none;
   background: var(--color3);
   color: var(--color7);
@@ -106,12 +102,12 @@ a:hover {
   margin-bottom: 2vw;
 }
 
-#knap:hover {
+button:hover {
   background: var(--color4);
   color: var(--color3);
 }
 
-#knap p {
+button p {
   color: var(--color7);
 }
 

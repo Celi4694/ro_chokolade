@@ -115,7 +115,7 @@ button p {
   border: none;
   background: var(--color3);
   color: var(--color7);
-  padding: 0.7rem 1rem;
+  padding: 0.1vw 2vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -131,6 +131,10 @@ button p {
 
 #knap p {
   color: var(--color7);
+}
+
+#knap a {
+  font-size: 2.5vw;
 }
 
 /*Footer*/

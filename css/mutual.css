@@ -81,18 +81,22 @@ p {
 
 a {
   font-family: "Roboto Mono", monospace;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   text-decoration: none;
   cursor: pointer;
   color: var(--color7);
   border: none;
 }
 
+<<<<<<< HEAD
 a:hover {
   color: var(--color4);
 }
 
 #knap {
+=======
+button {
+>>>>>>> d2a70b436786fca615470819b516a8516821f03a
   border: none;
   background: var(--color3);
   color: var(--color7);

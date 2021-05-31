@@ -59,7 +59,7 @@ main section #knap {
   margin-top: 0.7rem;
 }
 
-section:not(#first_section) {
+section:not(#first_section, footer #left, footer #middle, footer #right) {
   margin: 4rem 3rem 2rem 3rem;
 }
 

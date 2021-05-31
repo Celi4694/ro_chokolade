@@ -29,13 +29,10 @@ a {
   margin-left: 10.5vw;
 }
 
-<<<<<<< HEAD
-=======
 section {
   margin-bottom: 5vw;
 }
 
->>>>>>> a109989eb0ff48ed486c5e55bac390189a4991bd
 section:not(#first_section) {
   margin: 4rem 3rem 2rem 3rem;
 }

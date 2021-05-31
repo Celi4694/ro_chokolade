@@ -17,16 +17,12 @@ h2 {
   margin: 3vw;
 }
 
-.sr-only {
-  display: block;
-}
-.add_on {
+.sr-only,
+.add_on,
+.iframe {
   display: block;
 }
 
-iframe {
-  background-size: cover;
-}
 
 @media (max-width: 600px) {
   #first_section .section_wrapper {

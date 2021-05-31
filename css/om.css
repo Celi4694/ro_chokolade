@@ -45,10 +45,7 @@ h2 {
     grid-template-rows: 2;
     grid-template-columns: 1;
   }
-  #second_section .col_right {
-    grid-row: 1;
-    text-align: center;
-  }
+ 
   #second_section .col_left {
     grid-row: 2;
   }

@@ -80,7 +80,7 @@ main > section {
 #section_three,
 #section_four:not(#section_one) {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 
 #section_three h2 {
@@ -234,9 +234,9 @@ section {
   text-align: center;
 }
 
-#section_two #knap {
+/*#section_two #knap {
   margin-top: 0.7rem;
-}
+}*/
 
 #section_three .section_wrapper .col {
   display: flex;

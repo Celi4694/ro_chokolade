@@ -83,10 +83,13 @@ main > section {
   grid-template-columns: 1fr minmax(0, 1000px) 1fr;
 }
 
+#section_three h2 {
+  place-content: center;
+  display: grid;
+}
+
 #section_four .section_wrapper p,
 #section_four .section_wrapper h2,
-#section_three .section_wrapper p,
-#section_three .section_wrapper h2,
 #section_two .section_wrapper p,
 #section_two .section_wrapper h2 {
   margin-bottom: 2.5vw;

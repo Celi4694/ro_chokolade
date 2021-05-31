@@ -88,10 +88,6 @@ a {
   border: none;
 }
 
-a:hover {
-  color: var(--color4);
-}
-
 button {
   border: none;
   background: var(--color3);

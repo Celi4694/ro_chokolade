@@ -135,15 +135,7 @@ section h2 {
 }
 
 button {
-  background-color: black;
-  border: none;
-  color: white;
-  padding: 1vw 2vw;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-left: 9vw;
-  margin-top: 5vw;
+  margin-left: 11.5vw;
+  margin-top: 2vw;
   margin-bottom: 5vw;
 }

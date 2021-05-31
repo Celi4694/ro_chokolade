@@ -37,6 +37,7 @@ section:not(#first_section) {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  margin-top: 4vw;
 }
 
 #first_section img {
@@ -62,8 +63,7 @@ section:not(#first_section) {
 
 .image_4 {
   height: 17.5vw;
-
-  width: 69.5vw;
+  width: 73.5vw;
 }
 
 .section1 {

@@ -13,6 +13,25 @@ body {
   margin-right: 10vw;
 }
 
+/* Main layout start */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+
+main > section {
+  grid-column: 2/3;
+}
+
+#first_section {
+  grid-column: 1/4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main layout end */
+
 img {
   width: 100%;
   height: auto;
@@ -24,8 +43,20 @@ a {
   text-decoration: none;
   color: black;
 }
-#knap {
+
+/*#knap {
   margin-top: 2vw;
+  margin-left: 10.5vw;
+}*/
+
+.col_left,
+.col_mid,
+.col_right {
+  text-align: center;
+}
+
+main section #knap {
+  margin-top: 0.7rem;
 }
 
 section:not(#first_section) {

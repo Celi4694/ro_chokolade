@@ -8,6 +8,11 @@ label {
   /*height: 3.5vw;*/
   display: block;
 }
+
+input {
+  height: 2rem;
+}
+
 textarea {
   width: 100%;
   display: block;

@@ -141,6 +141,8 @@ section {
   margin: 0rem;
 }
 
+/* Tilpas knapper her start */
+
 #section_one a {
   display: flex;
   flex-direction: column;
@@ -175,6 +177,9 @@ section {
   display: flex;
   justify-content: center;
 }
+
+/* Tilpas knapper her end */
+
 /*
 
 #section_one .shopknap a,

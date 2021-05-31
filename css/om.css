@@ -2,10 +2,12 @@ input,
 label {
   width: 90%;
   height: 3.5vw;
+  display: block;
 }
 textarea {
-    width: 90%;
-  }
+  width: 90%;
+  display: block;
+}
 
 main {
   display: grid;
@@ -27,7 +29,6 @@ h2 {
   display: block;
 }
 
-
 @media (max-width: 600px) {
   #first_section .section_wrapper {
     text-align: center;
@@ -45,7 +46,7 @@ h2 {
     grid-template-rows: 2;
     grid-template-columns: 1;
   }
- 
+
   #second_section .col_left {
     grid-row: 2;
   }

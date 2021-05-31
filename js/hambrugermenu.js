@@ -1,22 +1,22 @@
-"use strict";
+'use strict';
 
-window.addEventListener("load", sidenVises);
+window.addEventListener('load', sidenVises);
 
 function sidenVises() {
-  console.log("sidenVises");
-  document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+  console.log('sidenVises');
+  document.querySelector('#menuknap').addEventListener('click', toggleMenu);
 }
 
 function toggleMenu() {
-  console.log("toggleMenu");
-  document.querySelector("#menu").classList.toggle("hidden");
+  console.log('toggleMenu');
+  document.querySelector('#menu').classList.toggle('hidden');
 
-  let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+  let erSkjult = document.querySelector('#menu').classList.contains('hidden');
 
   if (erSkjult == true) {
-    document.querySelector("#menuknap").textContent = "Menu";
+    document.querySelector('#menuknap').textContent = 'Menu';
   } else {
-    document.querySelector("#menuknap").textContent = "Close";
+    document.querySelector('#menuknap').textContent = 'Close';
   }
 }
 

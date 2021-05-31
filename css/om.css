@@ -1,72 +1,74 @@
+input,
+label {
+  width: 90%;
+  height: 3.5vw;
+}
+textarea {
+    width: 90%;
+  }
+
 main {
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
-  }
-  main > section {
-    display: grid;
-    grid-column: 2/3;
-  }
-  
-  h2 {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+main > section {
+  display: grid;
+  grid-column: 2/3;
+}
+
+h2 {
+  text-align: center;
+  margin: 3vw;
+}
+
+.sr-only,
+.add_on,
+.iframe {
+  display: block;
+}
+
+
+@media (max-width: 600px) {
+  #first_section .section_wrapper {
     text-align: center;
+  }
+  #first_section p {
     margin: 3vw;
   }
-  
-  .sr-only {
-    display: block;
-  }
-  .add_on {
-    display: block;
-  }
-  
+
   iframe {
-    background-size: cover;
+    width: 95vw;
+    margin: 2vw;
   }
-  
-  @media (max-width: 600px) {
-    #first_section .section_wrapper {
-      text-align: center;
-    }
-    #first_section p {
-      margin: 3vw;
-    }
-  
-    iframe {
-      width: 95vw;
-      margin: 2vw;
-    }
-    #second_section .section_wrapper {
-      display: grid;
-      grid-template-rows: 2;
-      grid-template-columns: 1;
-    }
-    #second_section .col_right {
-      grid-row: 1;
-      text-align: center;
-    }
-    #second_section .col_left {
-      grid-row: 2;
-    }
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1;
   }
-  @media (min-width: 600px) {
-    #first_section .section_wrapper {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    #first_section .col_left {
-      margin: 3vw;
-    }
-    #first_section .col_right {
-      margin: 3vw;
-    }
-    #second_section .section_wrapper {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    #second_section .col_left {
-      margin: 3vw;
-    }
-    iframe {
-      max-width: 55vw;
-    }
+ 
+  #second_section .col_left {
+    grid-row: 2;
   }
+}
+@media (min-width: 600px) {
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #first_section .col_left {
+    margin: 3vw;
+  }
+  #first_section .col_right {
+    margin: 3vw;
+  }
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #second_section .col_left {
+    margin: 3vw;
+  }
+  iframe {
+    max-width: 55vw;
+  }
+}

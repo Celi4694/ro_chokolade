@@ -6,24 +6,6 @@ main > section {
     display: grid;
     grid-column: 2/3;
     }
-button{
-    background-color: black;
-     border: none;
-     color: white;
-     text-align: center;
-     padding: 2vw;
-   }
-
-   button a {
-    background-color: lightgrey;
-    border: none;
-    color: white;
-    padding: 1vw 2vw;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-  }
 
    h2 {
        text-align: center;
@@ -39,6 +21,10 @@ button{
 
      iframe {
          background-size: cover;
+     }
+
+     form {
+         width: 40vw;
      }
 
    @media (max-width: 600px) {

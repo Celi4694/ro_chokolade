@@ -1,10 +1,12 @@
 input,
-label,
-textarea {
+label {
   width: 90%;
-  height: 3vw;
-  padding-right: 5vw;
+  height: 3.5vw;
 }
+textarea {
+    width: 90%;
+  }
+
 main {
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;

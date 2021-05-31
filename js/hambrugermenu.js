@@ -23,8 +23,8 @@ function toggleMenu() {
 let prevScrollpos = window.pageYOffset;
 
 // Skjult menu ved scroll
-/*
-window.onscroll = function() {
+
+window.onscroll = function () {
   console.log("Menu forsvinder");
   let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -35,4 +35,4 @@ window.onscroll = function() {
     document.querySelector("main").style = "margin-top: -127px";
   }
   prevScrollpos = currentScrollPos;
-} */
+};

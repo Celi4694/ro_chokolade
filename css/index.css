@@ -149,7 +149,7 @@ section {
 #section_one a {
   display: flex;
   flex-direction: column;
-
+  margin-top: 2rem;
   color: var(--color3);
   padding: 0.2rem;
 

@@ -12,7 +12,7 @@ img {
 
 img:not(header img, footer img, .section1 img, .section2 img, .section3
     img, .section4 img) {
-  border-radius: 0.2rem;
+  border-radius: 0.05rem;
 }
 
 html {

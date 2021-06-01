@@ -166,10 +166,29 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
   display: flex;
   justify-content: space-between;
   gap: 4vw;
+  flex-direction: column;
 }
 
 button {
   margin-left: 11.5vw;
   margin-top: 2vw;
   margin-bottom: 5vw;
+}
+
+.container img {
+  width: 75%;
+}
+
+.container .col_left,
+.container .col_mid,
+.container .col_right {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 340px) {
+  .container {
+    flex-direction: row;
+  }
 }

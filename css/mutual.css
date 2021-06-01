@@ -10,6 +10,12 @@ img {
   height: auto;
 }
 
+img:not(header img, footer img, .section1 img, .section2 img, .section3
+    img, .section4 img) {
+  border: 0.125rem solid #a6a6a64f;
+  border-radius: 0.2rem;
+}
+
 html {
   --color1: #b18960;
   --color2: #6b5137;
@@ -110,20 +116,21 @@ a {
   }
 
   h2 {
-    font-size: 2.3rem;
+
+    font-size: 2.6rem;
   }
 
   h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   h4 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   p {
     /*font-size: 1rem;*/
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   a {

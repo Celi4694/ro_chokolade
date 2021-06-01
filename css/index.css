@@ -21,6 +21,9 @@ figure {
   margin: 0.5rem 0rem 0rem 0rem;
 }
 
+h2 {
+  margin-top: 8vw;
+}
 /* Generelt end */
 
 /* Layout start */
@@ -219,6 +222,7 @@ section {
 
 #section_three .section_wrapper .col {
   display: flex;
+  gap: 4vw;
 }
 
 #section_three figure {

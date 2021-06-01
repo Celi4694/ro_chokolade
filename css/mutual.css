@@ -270,11 +270,13 @@ nav #menu {
 
 /*Footer start */
 #right img {
-  width: 5vw;
+  /*width: 10vw;*/
+  width: 18px;
 }
 
 #left img {
-  width: 7vw;
+  /*width: 7vw;*/
+  width: 20px;
 }
 
 footer {
@@ -283,10 +285,15 @@ footer {
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   text-align: center;
-  padding-left: 7vw;
+  /*padding-left: 7vw;
   padding-right: 7vw;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 1rem;*/
+  padding: 2rem 0.5rem 2rem 0.5rem;
+}
+
+footer section {
+  padding: 0rem;
 }
 
 footer p {
@@ -297,35 +304,48 @@ footer p {
 #right,
 #left {
   display: flex;
-  gap: 2vw;
+  gap: 1.2rem;
 }
 
 #right {
-  justify-content: right;
+  justify-content: start;
+}
+
+#left {
+  justify-content: end;
 }
 
 #visa {
   padding-top: 1vw;
 }
 
-#middle {
+/*#middle {
   padding-top: 1vw;
   padding-bottom: 1vw;
-}
+}*/
 
 /*Footer end*/
 
 @media (min-width: 500px) {
+  footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    /*padding: 2rem 3rem 2rem 3rem;*/
+  }
+
   #right img {
-    width: 3vw;
+    /*width: 5vw;*/
+    width: 35px;
   }
 
   #left img {
-    width: 5vw;
+    /*width: 10vw;*/
+    width: 30px;
   }
 
   #visa {
-    padding-top: 0.5vw;
+    /*padding-top: 0.5vw;*/
+    padding-top: 0.3rem;
   }
 }
 
@@ -385,19 +405,24 @@ footer p {
 
 @media (min-width: 1000px) {
   footer {
-    padding-left: 12vw;
-    padding-right: 12vw;
+    /*padding-left: 12vw;
+    padding-right: 12vw;*/
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 
   #right img {
-    width: 2vw;
+    /*width: 2vw;*/
+    width: 40px;
   }
 
   #left img {
-    width: 4vw;
+    /*width: 4vw;*/
+    width: 50px;
   }
 
   #visa {
-    padding-top: 0.5vw;
+    /*padding-top: 0.5vw;*/
+    padding-top: 0.4rem;
   }
 }

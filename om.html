@@ -89,9 +89,9 @@
           <div class="col_right">
             <h3>Send en mail</h3>
 
-            <form name="send_mail" netlify>
+            <form name="send_mail">
               <div class="navn">
-                <label for="full-name">Fulde navn</label>
+                <label for="full-name">Fulde navn
                 <input
                   type="text"
                   id="full-name"
@@ -99,9 +99,10 @@
                   placeholder=" fx Jens Peter"
                   required
                 />
+              </label>
               </div>
               <div class="email">
-                <label for="email">E-mail</label>
+                <label for="email">E-mail
                 <input
                   type="email"
                   id="email"
@@ -109,11 +110,12 @@
                   placeholder=" fx jens@gmail.com"
                   required
                 />
+              </label>
               </div>
 
               <div class="form-felt">
-                <label required
-                  >Meddelelse
+                <label >
+                  Meddelelse
                   <textarea
                     placeholder="Skriv din besked her..."
                     name="besked"

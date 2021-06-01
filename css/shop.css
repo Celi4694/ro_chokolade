@@ -87,11 +87,12 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
 .image_3 {
   width: 22.4vw;
   height: 17.5vw;
+  margin-left: 0.9vw;
 }
 
 .image_4 {
   height: 17.5vw;
-  width: 73.5vw;
+  width: 69.5vw;
 }
 
 .section1 {
@@ -132,10 +133,6 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
 .section3:hover,
 .section4:hover {
   opacity: 50%;
-}
-
-#first_section h2 {
-  font-size: 4vw;
 }
 
 .section1 a > * {

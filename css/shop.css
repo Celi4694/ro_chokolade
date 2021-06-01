@@ -135,10 +135,6 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
   opacity: 50%;
 }
 
-#first_section h2 {
-  font-size: 4vw;
-}
-
 .section1 a > * {
   grid-area: 1/1;
 }

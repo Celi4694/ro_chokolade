@@ -264,6 +264,7 @@ section {
 
   #section_two video {
     width: 70%;
+    margin-bottom: 2vw;
   }
 
   /*#section_two .section_wrapper {

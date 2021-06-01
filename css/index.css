@@ -223,6 +223,7 @@ section {
 #section_three .section_wrapper .col {
   display: flex;
   gap: 4vw;
+  opacity: 70%;
 }
 
 #section_three figure {

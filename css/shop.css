@@ -127,6 +127,13 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
   padding-right: 1vw;
 }
 
+.section1:hover,
+.section2:hover,
+.section3:hover,
+.section4:hover {
+  opacity: 50%;
+}
+
 #first_section h2 {
   font-size: 4vw;
 }

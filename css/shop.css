@@ -152,10 +152,14 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
   grid-area: 1/1;
 }
 
-section h2 {
+.section h2 {
   display: grid;
   place-content: center;
   margin-bottom: 3vw;
+}
+
+.section3 h2 {
+  padding-right: 12vw;
 }
 
 .container {

@@ -105,7 +105,7 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
 
 .section2 {
   grid-column: 5/7;
-  padding-right: 2vw;
+  padding-right: 2.5vw;
   height: 21vw;
   grid-row: 1;
   display: grid;

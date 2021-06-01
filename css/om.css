@@ -20,14 +20,22 @@ textarea {
   font-family: "Open Sans", sans-serif;
 }
 
-/*main {
+<<<<<<< HEAD
+/* main {
+=======
+main {
+>>>>>>> eb8b986f833ba3430b7e5bed22c74f96c842bbe6
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 main > section {
   display: grid;
   grid-column: 2/3;
-}*/
+<<<<<<< HEAD
+} */
+=======
+}
+>>>>>>> eb8b986f833ba3430b7e5bed22c74f96c842bbe6
 
 #second_section .col_left {
   display: flex;
@@ -44,6 +52,13 @@ h2 {
 .add_on,
 .iframe {
   display: block;
+}
+
+h2 {
+  font-size: clamp(1.5rem, -0.2857rem + 5.7143vw, 4rem);
+}
+h3 {
+  font-size: clamp(1rem, -0.4286rem + 4.5714vw, 3rem);
 }
 
 @media (max-width: 600px) {

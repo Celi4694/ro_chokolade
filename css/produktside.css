@@ -1,6 +1,15 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+main > section {
+  display: grid;
+  grid-column: 2/3;
+}
+
 #first_section .section_wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr;*/
   gap: 4vw;
   margin: 7vw;
 }
@@ -8,7 +17,8 @@
 #first_section .col_right {
   display: flex;
   flex-direction: column;
-  gap: 3vw;
+  /*gap: 3vw;*/
+  gap: 2rem;
   padding: 1vw;
 }
 
@@ -83,8 +93,8 @@
 }
 
 .produkt1234 img {
-  height: 28vw;
-  width: 20vw;
+  /*height: 28vw;
+  width: 20vw;*/
 }
 
 * {
@@ -209,4 +219,10 @@
 
 .container4:hover .overlay4 {
   opacity: 1;
+}
+
+@media (min-width: 500px) {
+  #first_section .section_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }

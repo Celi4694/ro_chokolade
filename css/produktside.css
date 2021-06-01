@@ -12,6 +12,10 @@
   padding: 1vw;
 }
 
+#first_section button {
+  border: none;
+}
+
 #knapper {
   display: flex;
   flex-direction: row;

@@ -37,11 +37,9 @@ img {
   height: auto;
 }
 
-a {
+#first_section a {
   display: grid;
   place-items: center;
-  text-decoration: none;
-  color: black;
 }
 
 /*#knap {

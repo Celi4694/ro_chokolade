@@ -318,7 +318,7 @@ footer p {
 }
 
 #left {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 #visa {

@@ -12,7 +12,6 @@ img {
 
 img:not(header img, footer img, .section1 img, .section2 img, .section3
     img, .section4 img) {
-  border: 0.125rem solid #a6a6a64f;
   border-radius: 0.2rem;
 }
 
@@ -116,7 +115,6 @@ a {
   }
 
   h2 {
-
     font-size: 2.6rem;
   }
 

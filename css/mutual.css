@@ -10,6 +10,11 @@ img {
   height: auto;
 }
 
+img:not(header img, footer img, .section1 img, .section2 img, .section3
+    img, .section4 img) {
+  border-radius: 0.05rem;
+}
+
 html {
   --color1: #b18960;
   --color2: #6b5137;

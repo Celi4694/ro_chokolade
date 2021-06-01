@@ -20,14 +20,14 @@ textarea {
   font-family: "Open Sans", sans-serif;
 }
 
-/*main {
+/* main {
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 main > section {
   display: grid;
   grid-column: 2/3;
-}*/
+} */
 
 #second_section .col_left {
   display: flex;
@@ -45,6 +45,8 @@ h2 {
 .iframe {
   display: block;
 }
+
+
 
 @media (max-width: 600px) {
   #first_section .section_wrapper {

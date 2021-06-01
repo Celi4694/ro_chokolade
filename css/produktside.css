@@ -92,10 +92,10 @@ main > section {
   gap: 2vw;
 }
 
-.produkt1234 img {
-  /*height: 28vw;
-  width: 20vw;*/
-}
+/*.produkt1234 img {
+  height: 28vw;
+  width: 20vw;
+}*/
 
 * {
   box-sizing: border-box;

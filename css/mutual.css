@@ -349,23 +349,21 @@ footer p {
   }
 }
 
-@media (min-width: 500px) {
+/*@media (min-width: 500px) {
   p {
-    /*font-family: "Open Sans", sans-serif;
-    font-weight: lighter;*/
-    /*font-size: 1.1vw;*/
+    font-size: 1.1vw;
   }
 
   h3 {
-    /*font-family: "Roboto Mono", monospace;*/
-    /*font-size: 3vw;*/
+    
+    font-size: 3vw;
   }
 
   h2 {
-    /*font-family: "Roboto Mono", monospace;*/
-    /*font-size: 3vw;*/
+    
+    font-size: 3vw;
   }
-}
+}*/
 
 @media (min-width: 700px) {
   nav {

@@ -22,7 +22,7 @@ figure {
 }
 
 h2 {
-  margin-top: 8vw;
+  margin-top: 2rem;
 }
 /* Generelt end */
 
@@ -121,8 +121,6 @@ section {
   margin: 0rem;
 }
 
-/* Tilpas knapper her start */
-
 #section_one a {
   display: flex;
   flex-direction: column;
@@ -157,37 +155,6 @@ section {
   display: flex;
   justify-content: center;
 }
-
-/* Tilpas knapper her end */
-
-/*#section_one .shopknap a,
-#section_one .videoknap a {
-  background: rgba(0, 0, 0, 0.377);
-  color: var(--color7);
-  padding: 0.1vw 2vw;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 0.2rem;
-  margin-bottom: 2vw;
-}
-
-#section_one .shopknap {
-  display: flex;
-  justify-content: center;
-  grid-column: 4/7;
-  grid-row: 3/4;
-  margin-bottom: 0.8rem;
-}
-
-#section_one .videoknap {
-  display: flex;
-  justify-content: center;
-  grid-column: 3/5;
-  grid-row: 4/6;
-  margin-bottom: 0.8rem;
-}*/
 
 #section_one img {
   width: 1rem;
@@ -226,7 +193,7 @@ section {
 
 #section_three .section_wrapper .col {
   display: flex;
-  gap: 4vw;
+  gap: 3rem;
   opacity: 70%;
 }
 
@@ -268,7 +235,7 @@ section {
 
   #section_two video {
     width: 70%;
-    margin-bottom: 2vw;
+    margin-bottom: 1.6rem;
   }
 
   /*#section_two .section_wrapper {

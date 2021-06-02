@@ -31,7 +31,7 @@ if (prevScrollpos > currentScrollPos) {
   document.querySelector("header").style.top = "0";
   document.querySelector("main").style = "margin-top: 0px";
 } else {
-  document.querySelector("header").style = "top: -127px;";
+  document.querySelector("header").style = "top: -280px;";
   document.querySelector("main").style = "margin-top: -127px";
 }
 prevScrollpos = currentScrollPos;

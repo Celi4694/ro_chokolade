@@ -116,3 +116,10 @@ window.addEventListener("load", () => {
     document.body.prepend(div);
   }
 });
+
+// Kode for at se om det virker
+window.addEventListener('load', login);
+
+function login () {
+  console.log('login');
+}

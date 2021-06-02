@@ -124,6 +124,7 @@ a {
   p {
     /*font-size: 1rem;*/
     font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   a {
@@ -312,7 +313,7 @@ footer p {
 }
 
 #left {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 #visa {

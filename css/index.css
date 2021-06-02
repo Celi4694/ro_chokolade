@@ -220,6 +220,10 @@ section {
   margin-bottom: 0rem;
 }
 
+#section_three figure:hover {
+  opacity: 50%;
+}
+
 #section_three .section_wrapper .col {
   display: flex;
   gap: 4vw;

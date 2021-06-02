@@ -19,9 +19,9 @@ main > section {
   place-content: center;
 }
 
-.col_left img {
+/*.col_left img {
   height: 65vw;
-}
+}*/
 
 #first_section .col_right {
   display: flex;
@@ -106,10 +106,6 @@ main > section {
   width: 20vw;
 }*/
 
-* {
-  box-sizing: border-box;
-}
-
 .container1 {
   position: relative;
   max-width: 300px;
@@ -127,7 +123,8 @@ main > section {
   background: rgb(196, 196, 196);
   background: rgba(231, 231, 231, 0.5);
   color: black;
-  width: 93%;
+  /*width: 93%;*/
+  width: 100%;
   transition: 0.5s ease;
   opacity: 0;
   color: black;
@@ -157,7 +154,8 @@ main > section {
   background: rgb(196, 196, 196);
   background: rgba(231, 231, 231, 0.5);
   color: black;
-  width: 93%;
+  /*width: 93%;*/
+  width: 100%;
   transition: 0.5s ease;
   opacity: 0;
   color: black;
@@ -187,7 +185,8 @@ main > section {
   background: rgb(196, 196, 196);
   background: rgba(231, 231, 231, 0.5);
   color: black;
-  width: 93%;
+  /*width: 93%;*/
+  width: 100%;
   transition: 0.5s ease;
   opacity: 0;
   color: black;
@@ -217,7 +216,8 @@ main > section {
   background: rgb(196, 196, 196);
   background: rgba(231, 231, 231, 0.5);
   color: black;
-  width: 93%;
+  /*width: 93%;*/
+  width: 100%;
   transition: 0.5s ease;
   opacity: 0;
   color: black;

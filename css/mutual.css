@@ -317,7 +317,8 @@ footer p {
 }
 
 #visa {
-  padding-top: 1vw;
+  /*padding-top: 1vw;*/
+  padding-top: 0.2rem;
 }
 
 /*#middle {
@@ -423,5 +424,9 @@ footer p {
   #visa {
     /*padding-top: 0.5vw;*/
     padding-top: 0.4rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }

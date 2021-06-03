@@ -65,9 +65,8 @@ section:not(#first_section, footer #left, footer #middle, footer #right) {
   /*display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);*/
-  margin-top: 4vw;
   /*gap: 1rem;*/
-
+  margin-top: 4vw;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
   grid-template-rows: 1fr auto auto 30px;
